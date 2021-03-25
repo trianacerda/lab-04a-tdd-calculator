@@ -11,41 +11,65 @@
     <link rel="stylesheet" href="styles/home.css">
     <title>Document</title>
 </head>
-
 <body>
-    <header>
-        <div class="gutter-right logo">
-            <img src="assets/big-logo.png"/>
-        </div>
-    </header>
-    <main>
-        <section class="main-section">
-            <img class="main-logo" src="assets/alchemy-logo.png"/>
-            <h2>
-                Welcome to Alchemy Bootstrap!
-            </h2>
+    <p>
+        <label>
+            Addition:
+            <input type="number" id="addition1-input">
+        </label>
+        <label>
+            +
+            <input type="number" id="addition2-input">
+        </label>
+        =     
+        <span id="addition-result"></span>
+        <button id= "addition-button">get the answer</button>
+    </p>
 
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
-            <hr />
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aperiam repellendus similique consectetur voluptas facilis molestiae voluptates nobis error sapiente, ad, ipsa vero non, sint eligendi? Eos praesentium iusto magnam exercitationem.
-                Earum sunt voluptatibus molestias, sint voluptatum quos reiciendis. Id asperiores deleniti dolores provident, eius, nostrum aperiam vel, optio qui illo corrupti in. Eum quam, est nemo porro sapiente excepturi assumenda.
-                Rerum unde quidem maxime. Ullam, dolores labore molestias voluptatibus adipisci quod? Quaerat nihil inventore molestiae assumenda, voluptates vel necessitatibus eligendi? Accusamus ratione eligendi reprehenderit? Beatae incidunt molestias ea soluta nulla.
-                Fugiat quae soluta voluptate mollitia praesentium modi ex illo, autem assumenda, vel aliquam fugit possimus dolorem esse corporis ipsa! Voluptatem sapiente error non, ea optio suscipit quasi maxime nobis ex?
-                Et ipsa tenetur ullam ab nesciunt quas fugit velit impedit illum esse eligendi corporis culpa praesentium aspernatur ex sint veniam quidem, doloribus corrupti hic vitae. Eum neque ducimus omnis exercitationem?
-            </p>
+    <p>
+        <label>
+            Subtraction:
+            <input type="number" id="subtraction1-input">
+        </label>
+        <label>
+            -
+            <input type="number" id="subtraction2-input">
+        </label>
+        =
+        <span id="subtraction-result"></span>
+        <button id= "subtraction-button">answer</button>
+    </p>
 
-        </section>
-    </main>
-    <footer>
-        <div class="copy gutter-right">&copy; 2020 Alchemy Code Lab</div>
-    </footer>
+
+    <p>
+        <label>
+            Multiplication:
+            <input type="number" id="multiply1-input">
+        </label>
+        <label>
+            *
+            <input type="number" id="multiply2-input">
+        </label>
+        =
+        <span id="multiply-result"></span>
+        <button id= "multiply-button">calculate the answer</button>
+    </p>
+
+    <p>
+        <label>
+            Division:
+            <input type="number" id="divide1-input">
+        </label>
+        <label>
+            /
+            <input type="number" id="divide2-input">
+        </label>
+        =
+        <span id="divide-result"></span>
+        <button id= "divide-button">calculate</button>
+    </p>
+
+
 
     <script type="module" src="app.js"></script>
 </body>
